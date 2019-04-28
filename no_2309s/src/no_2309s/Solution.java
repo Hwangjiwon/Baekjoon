@@ -21,7 +21,7 @@ public class Solution {
 		sub = max - 100;
 		
 		for(int i = 0; i < 9; i++) {
-			for(int j = i+1; j < 8; j++) {
+			for(int j = i+1; j < 9; j++) {
 				if(arr[i]+arr[j] == sub) {
 					arr[i] = 101;
 					arr[j] = 101;
